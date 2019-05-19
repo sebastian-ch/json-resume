@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website</title>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+
+    <style>
+        html {
+            background-color: #f5f5f5;
+        }
+        pre.prettyprint {
+            background-color: #f5f5f5;
+            border: 0px;
+            font-size: 20px;
+        }
+
+
+        @keyframes blink {
+
+            from,
+            to {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: black;
+            }
+        }
+
+        span:nth-child(121) {
+            border-right: 2px solid black;
+            animation: 1s blink step-end infinite;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <pre class='prettyprint'>
+    <code class="language-javascript">
+        //json resume idea
+        
+        var SebastianHancock = {
+
+            "info": {
+                "name": "Sebastian Hancock",
+                "label": "Msc Cartography Student",
+                "email": null,
+                "website": "sebastian-ch.github.io",
+                "location": {
+                    "address": null,
+                    "postalCode": "1010",
+                    "city": "Vienna",
+                    "countryCode": "AT",
+                    "country": "Austria"
+
+                }
+            }
+
+            "employment" : 6.2,
+            "skills" : 7.3,
+            "education" : {
+                "r" : 255,
+                "g" : 200,
+                "b" : 10
+            }    
+        }
+    </code>
+</pre>
+
+
+
+    <!-- <pre>
+    <code>
+    [
+        {
+            color: "red",
+            value: "#f00"
+        },
+        {
+            color: "green",
+            value: "#0f0"
+        },
+        {
+            color: "blue",
+            value: "#00f"
+        },
+        {
+            color: "cyan",
+            value: "#0ff"
+        },
+        {
+            color: "magenta",
+            value: "#f0f"
+        },
+        {
+            color: "yellow",
+            value: "#ff0"
+        },
+        {
+            color: "black",
+            value: "#000"
+        }
+    ]
+    
+    </code>
+    </pre> -->
+</body>
+
+</html>
